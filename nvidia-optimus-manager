@@ -27,7 +27,7 @@ class Switcher(object):
         self._ldm_conf_file = '/etc/X11/xorg.conf.d/00-ldm.conf'
         self._ldm_hybrid_file = '/var/lib/linux-driver-management/hybrid'
         self._blacklist_file = '/etc/modprobe.d/blacklist-nvidia.conf'
-        self._nvidia_pm_rules_file = '/etc/udev/rules.d/80-nvidia-pm.rules'
+        self._nvidia_pm_rules_file = '/usr/lib64/udev/rules.d/80-nvidia-pm.rules'
         self._opengl_settings = {
             'intel': 'Intel',
             'hybrid': 'Intel',
